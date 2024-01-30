@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# The Python file name will be saved in the environment variable $PYFILE
+
+python3 $PYFILE
