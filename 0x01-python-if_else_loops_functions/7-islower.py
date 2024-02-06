@@ -2,9 +2,8 @@
 
 def islower(c):
     lower_a = "a"
-    lower_z = "z"
 
-    if c >= lower_a and c <= lower_z:
+    if c >= lower_a:
         return True
     else:
         return False
