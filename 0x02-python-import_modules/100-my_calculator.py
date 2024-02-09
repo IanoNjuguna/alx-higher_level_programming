@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
     len_argv = len(argv)
     argc = len_argv - 1
-    operators = {"+" : add, "-" : sub, "*" : mul, "/" : div}
+    operators = {"+": add, "-": sub, "*": mul, "/": div}
     a = int(argv[1])
     b = int(argv[3])
 
