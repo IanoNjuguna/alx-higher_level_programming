@@ -1,10 +1,11 @@
 def element_at(my_list, idx):
 
-    list_length = len(my_list) - 1
+    list_index = len(my_list) - 1
+    list_length = len(my_list)
 
-    if my_list[idx] < 0:
+    if list_length < 0:
         return None
-    elif my_list[idx] >= list_length:
+    elif list_length > list_index:
         return None
     else:
         return my_list[idx]
