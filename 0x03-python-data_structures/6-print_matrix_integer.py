@@ -9,6 +9,7 @@ def print_matrix_integer(matrix=[[]]):
 
             if column != end_list:
                 print(end=" ")
+            elif column == None:
+                print()
             else:
                 print("\n", end="")
-        print()
