@@ -8,9 +8,9 @@ def print_matrix_integer(matrix=[[]]):
             print("{:d}".format(column), end="")
 
             if column != end_list:
-                print(end=" ") 
+                print(end=" ")
             else:
                 print("\n", end="")
-
-        if not row: #IF LIST IS EMPTY EDGE CASE
+        # EDGE CASE: IF LIST IS EMPTY
+        if not row:
             print()
