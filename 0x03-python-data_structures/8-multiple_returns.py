@@ -8,6 +8,6 @@ def multiple_returns(sentence):
     else:
         first_char = sentence[0]
 
-    tuple_new = len_sentence, first_char
+    tuple_new = (len_sentence, first_char)
 
     return tuple_new
